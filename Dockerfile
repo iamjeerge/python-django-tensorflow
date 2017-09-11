@@ -32,8 +32,7 @@ RUN apt-get update && \
         libgraphviz-dev \
         python-pydot \
         default-jre \
-        default-jdk \
-        libcupti-dev
+        default-jdk
 
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install -y --no-install-recommends nodejs
